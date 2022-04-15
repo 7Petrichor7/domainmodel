@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "5595f32c40e746dbf4c2bffda528789b35a90ac2f2da97b70b807f8831a5c8eb"
+build_start_time: [1649981645, 551655054]
+build_end_time: [1649981645, 894613027]
+inputs:
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/DomainModelTests.swift": [1649970443, 854556560]
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/JobTests.swift": [1649970443, 854702949]
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/MoneyTests.swift": [1649970443, 854920148]
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/PersonTests.swift": !private [1649970443, 855117321]
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/XCTestManifests.swift": [1649970443, 855283260]

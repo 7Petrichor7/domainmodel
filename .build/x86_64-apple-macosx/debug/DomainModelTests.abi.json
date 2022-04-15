@@ -1,0 +1,2815 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests"
+    },
+    {
+      "kind": "Import",
+      "name": "DomainModel",
+      "printedName": "DomainModel",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DomainModelTests",
+      "printedName": "DomainModelTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testExample",
+          "printedName": "testExample()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests(im)testExample",
+          "mangledName": "$s16DomainModelTestsAAC11testExampleyyF",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "Final",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allTests",
+          "printedName": "allTests",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(DomainModelTests.DomainModelTests) -> () -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "() -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DomainModelTests",
+                          "printedName": "DomainModelTests.DomainModelTests",
+                          "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTestsAAC03allC0SaySS_yycABctGvpZ",
+          "mangledName": "$s16DomainModelTestsAAC03allC0SaySS_yycABctGvpZ",
+          "moduleName": "DomainModelTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.DomainModelTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "DomainModelTests",
+                              "printedName": "DomainModelTests.DomainModelTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTestsAAC03allC0SaySS_yycABctGvgZ",
+              "mangledName": "$s16DomainModelTestsAAC03allC0SaySS_yycABctGvgZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.DomainModelTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.DomainModelTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "DomainModelTests",
+                              "printedName": "DomainModelTests.DomainModelTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTestsAAC03allC0SaySS_yycABctGvsZ",
+              "mangledName": "$s16DomainModelTestsAAC03allC0SaySS_yycABctGvsZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTestsAAC03allC0SaySS_yycABctGvMZ",
+              "mangledName": "$s16DomainModelTestsAAC03allC0SaySS_yycABctGvMZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DomainModelTests",
+              "printedName": "DomainModelTests.DomainModelTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests(im)initWithInvocation:",
+          "mangledName": "$s16DomainModelTestsAAC10invocationABSo12NSInvocationCSg_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DomainModelTests",
+              "printedName": "DomainModelTests.DomainModelTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests(im)initWithSelector:",
+          "mangledName": "$s16DomainModelTestsAAC8selectorAB10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DomainModelTests",
+              "printedName": "DomainModelTests.DomainModelTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests(im)init",
+          "mangledName": "$s16DomainModelTestsAACABycfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DomainModelTests@objc(cs)DomainModelTests",
+      "mangledName": "$s16DomainModelTestsAAC",
+      "moduleName": "DomainModelTests",
+      "declAttributes": [
+        "Final",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests"
+    },
+    {
+      "kind": "Import",
+      "name": "DomainModel",
+      "printedName": "DomainModel",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "JobTests",
+      "printedName": "JobTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testCreateSalaryJob",
+          "printedName": "testCreateSalaryJob()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)testCreateSalaryJob",
+          "mangledName": "$s16DomainModelTests03JobC0C016testCreateSalaryD0yyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testCreateHourlyJob",
+          "printedName": "testCreateHourlyJob()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)testCreateHourlyJob",
+          "mangledName": "$s16DomainModelTests03JobC0C016testCreateHourlyD0yyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testSalariedRaise",
+          "printedName": "testSalariedRaise()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)testSalariedRaise",
+          "mangledName": "$s16DomainModelTests03JobC0C17testSalariedRaiseyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testHourlyRaise",
+          "printedName": "testHourlyRaise()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)testHourlyRaise",
+          "mangledName": "$s16DomainModelTests03JobC0C15testHourlyRaiseyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allTests",
+          "printedName": "allTests",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[(Swift.String, (DomainModelTests.JobTests) -> () -> ())]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String, (DomainModelTests.JobTests) -> () -> ())",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(DomainModelTests.JobTests) -> () -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "() -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "JobTests",
+                          "printedName": "DomainModelTests.JobTests",
+                          "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests03JobC0C03allC0SaySS_yycACctGvpZ",
+          "mangledName": "$s16DomainModelTests03JobC0C03allC0SaySS_yycACctGvpZ",
+          "moduleName": "DomainModelTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.JobTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.JobTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.JobTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "JobTests",
+                              "printedName": "DomainModelTests.JobTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests03JobC0C03allC0SaySS_yycACctGvgZ",
+              "mangledName": "$s16DomainModelTests03JobC0C03allC0SaySS_yycACctGvgZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.JobTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.JobTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.JobTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "JobTests",
+                              "printedName": "DomainModelTests.JobTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests03JobC0C03allC0SaySS_yycACctGvsZ",
+              "mangledName": "$s16DomainModelTests03JobC0C03allC0SaySS_yycACctGvsZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests03JobC0C03allC0SaySS_yycACctGvMZ",
+              "mangledName": "$s16DomainModelTests03JobC0C03allC0SaySS_yycACctGvMZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobTests",
+              "printedName": "DomainModelTests.JobTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)initWithInvocation:",
+          "mangledName": "$s16DomainModelTests03JobC0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobTests",
+              "printedName": "DomainModelTests.JobTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)initWithSelector:",
+          "mangledName": "$s16DomainModelTests03JobC0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobTests",
+              "printedName": "DomainModelTests.JobTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)JobTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)JobTests(im)init",
+          "mangledName": "$s16DomainModelTests03JobC0CACycfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DomainModelTests@objc(cs)JobTests",
+      "mangledName": "$s16DomainModelTests03JobC0C",
+      "moduleName": "DomainModelTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests"
+    },
+    {
+      "kind": "Import",
+      "name": "DomainModel",
+      "printedName": "DomainModel",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MoneyTests",
+      "printedName": "MoneyTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "tenUSD",
+          "printedName": "tenUSD",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C6tenUSD0aB00D0Vvp",
+          "mangledName": "$s16DomainModelTests05MoneyC0C6tenUSD0aB00D0Vvp",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Money",
+                  "printedName": "DomainModel.Money",
+                  "usr": "s:11DomainModel5MoneyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C6tenUSD0aB00D0Vvg",
+              "mangledName": "$s16DomainModelTests05MoneyC0C6tenUSD0aB00D0Vvg",
+              "moduleName": "DomainModelTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "twelveUSD",
+          "printedName": "twelveUSD",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C9twelveUSD0aB00D0Vvp",
+          "mangledName": "$s16DomainModelTests05MoneyC0C9twelveUSD0aB00D0Vvp",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Money",
+                  "printedName": "DomainModel.Money",
+                  "usr": "s:11DomainModel5MoneyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C9twelveUSD0aB00D0Vvg",
+              "mangledName": "$s16DomainModelTests05MoneyC0C9twelveUSD0aB00D0Vvg",
+              "moduleName": "DomainModelTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "fiveGBP",
+          "printedName": "fiveGBP",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C7fiveGBP0aB00D0Vvp",
+          "mangledName": "$s16DomainModelTests05MoneyC0C7fiveGBP0aB00D0Vvp",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Money",
+                  "printedName": "DomainModel.Money",
+                  "usr": "s:11DomainModel5MoneyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C7fiveGBP0aB00D0Vvg",
+              "mangledName": "$s16DomainModelTests05MoneyC0C7fiveGBP0aB00D0Vvg",
+              "moduleName": "DomainModelTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "fifteenEUR",
+          "printedName": "fifteenEUR",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C10fifteenEUR0aB00D0Vvp",
+          "mangledName": "$s16DomainModelTests05MoneyC0C10fifteenEUR0aB00D0Vvp",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Money",
+                  "printedName": "DomainModel.Money",
+                  "usr": "s:11DomainModel5MoneyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C10fifteenEUR0aB00D0Vvg",
+              "mangledName": "$s16DomainModelTests05MoneyC0C10fifteenEUR0aB00D0Vvg",
+              "moduleName": "DomainModelTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "fifteenCAN",
+          "printedName": "fifteenCAN",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C10fifteenCAN0aB00D0Vvp",
+          "mangledName": "$s16DomainModelTests05MoneyC0C10fifteenCAN0aB00D0Vvp",
+          "moduleName": "DomainModelTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Money",
+                  "printedName": "DomainModel.Money",
+                  "usr": "s:11DomainModel5MoneyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C10fifteenCAN0aB00D0Vvg",
+              "mangledName": "$s16DomainModelTests05MoneyC0C10fifteenCAN0aB00D0Vvg",
+              "moduleName": "DomainModelTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "testCanICreateMoney",
+          "printedName": "testCanICreateMoney()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testCanICreateMoney",
+          "mangledName": "$s16DomainModelTests05MoneyC0C014testCanICreateD0yyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoGBP",
+          "printedName": "testUSDtoGBP()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoGBP",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testUSDtoGBPyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoEUR",
+          "printedName": "testUSDtoEUR()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoEUR",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testUSDtoEURyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoCAN",
+          "printedName": "testUSDtoCAN()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoCAN",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testUSDtoCANyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGBPtoUSD",
+          "printedName": "testGBPtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testGBPtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testGBPtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testEURtoUSD",
+          "printedName": "testEURtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testEURtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testEURtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testCANtoUSD",
+          "printedName": "testCANtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testCANtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C12testCANtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoEURtoUSD",
+          "printedName": "testUSDtoEURtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoEURtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C17testUSDtoEURtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoGBPtoUSD",
+          "printedName": "testUSDtoGBPtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoGBPtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C17testUSDtoGBPtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testUSDtoCANtoUSD",
+          "printedName": "testUSDtoCANtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testUSDtoCANtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C17testUSDtoCANtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testAddUSDtoUSD",
+          "printedName": "testAddUSDtoUSD()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testAddUSDtoUSD",
+          "mangledName": "$s16DomainModelTests05MoneyC0C15testAddUSDtoUSDyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testAddUSDtoGBP",
+          "printedName": "testAddUSDtoGBP()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)testAddUSDtoGBP",
+          "mangledName": "$s16DomainModelTests05MoneyC0C15testAddUSDtoGBPyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allTests",
+          "printedName": "allTests",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(DomainModelTests.MoneyTests) -> () -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "() -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "MoneyTests",
+                          "printedName": "DomainModelTests.MoneyTests",
+                          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvpZ",
+          "mangledName": "$s16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvpZ",
+          "moduleName": "DomainModelTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.MoneyTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "MoneyTests",
+                              "printedName": "DomainModelTests.MoneyTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvgZ",
+              "mangledName": "$s16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvgZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.MoneyTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.MoneyTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "MoneyTests",
+                              "printedName": "DomainModelTests.MoneyTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvsZ",
+              "mangledName": "$s16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvsZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvMZ",
+              "mangledName": "$s16DomainModelTests05MoneyC0C03allC0SaySS_yycACctGvMZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MoneyTests",
+              "printedName": "DomainModelTests.MoneyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)initWithInvocation:",
+          "mangledName": "$s16DomainModelTests05MoneyC0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MoneyTests",
+              "printedName": "DomainModelTests.MoneyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)initWithSelector:",
+          "mangledName": "$s16DomainModelTests05MoneyC0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MoneyTests",
+              "printedName": "DomainModelTests.MoneyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests(im)init",
+          "mangledName": "$s16DomainModelTests05MoneyC0CACycfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DomainModelTests@objc(cs)MoneyTests",
+      "mangledName": "$s16DomainModelTests05MoneyC0C",
+      "moduleName": "DomainModelTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests"
+    },
+    {
+      "kind": "Import",
+      "name": "DomainModel",
+      "printedName": "DomainModel",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PersonTests",
+      "printedName": "PersonTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testPerson",
+          "printedName": "testPerson()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)testPerson",
+          "mangledName": "$s16DomainModelTests06PersonC0C04testD0yyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testAgeRestrictions",
+          "printedName": "testAgeRestrictions()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)testAgeRestrictions",
+          "mangledName": "$s16DomainModelTests06PersonC0C19testAgeRestrictionsyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testAdultAgeRestrictions",
+          "printedName": "testAdultAgeRestrictions()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)testAdultAgeRestrictions",
+          "mangledName": "$s16DomainModelTests06PersonC0C24testAdultAgeRestrictionsyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allTests",
+          "printedName": "allTests",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[(Swift.String, (DomainModelTests.PersonTests) -> () -> ())]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String, (DomainModelTests.PersonTests) -> () -> ())",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(DomainModelTests.PersonTests) -> () -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "() -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "PersonTests",
+                          "printedName": "DomainModelTests.PersonTests",
+                          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvpZ",
+          "mangledName": "$s16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvpZ",
+          "moduleName": "DomainModelTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.PersonTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.PersonTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.PersonTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "PersonTests",
+                              "printedName": "DomainModelTests.PersonTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvgZ",
+              "mangledName": "$s16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvgZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.PersonTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.PersonTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.PersonTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "PersonTests",
+                              "printedName": "DomainModelTests.PersonTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvsZ",
+              "mangledName": "$s16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvsZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvMZ",
+              "mangledName": "$s16DomainModelTests06PersonC0C03allC0SaySS_yycACctGvMZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersonTests",
+              "printedName": "DomainModelTests.PersonTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)initWithInvocation:",
+          "mangledName": "$s16DomainModelTests06PersonC0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersonTests",
+              "printedName": "DomainModelTests.PersonTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)initWithSelector:",
+          "mangledName": "$s16DomainModelTests06PersonC0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersonTests",
+              "printedName": "DomainModelTests.PersonTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)PersonTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)PersonTests(im)init",
+          "mangledName": "$s16DomainModelTests06PersonC0CACycfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DomainModelTests@objc(cs)PersonTests",
+      "mangledName": "$s16DomainModelTests06PersonC0C",
+      "moduleName": "DomainModelTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FamilyTests",
+      "printedName": "FamilyTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testFamily",
+          "printedName": "testFamily()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests(im)testFamily",
+          "mangledName": "$s16DomainModelTests06FamilyC0C04testD0yyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testFamilyWithKids",
+          "printedName": "testFamilyWithKids()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests(im)testFamilyWithKids",
+          "mangledName": "$s16DomainModelTests06FamilyC0C04testD8WithKidsyyF",
+          "moduleName": "DomainModelTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allTests",
+          "printedName": "allTests",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(DomainModelTests.FamilyTests) -> () -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "() -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "FamilyTests",
+                          "printedName": "DomainModelTests.FamilyTests",
+                          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvpZ",
+          "mangledName": "$s16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvpZ",
+          "moduleName": "DomainModelTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.FamilyTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "FamilyTests",
+                              "printedName": "DomainModelTests.FamilyTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvgZ",
+              "mangledName": "$s16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvgZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (DomainModelTests.FamilyTests) -> () -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(DomainModelTests.FamilyTests) -> () -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeFunc",
+                              "name": "Function",
+                              "printedName": "() -> ()",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Void",
+                                  "printedName": "()"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "FamilyTests",
+                              "printedName": "DomainModelTests.FamilyTests",
+                              "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvsZ",
+              "mangledName": "$s16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvsZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvMZ",
+              "mangledName": "$s16DomainModelTests06FamilyC0C03allC0SaySS_yycACctGvMZ",
+              "moduleName": "DomainModelTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FamilyTests",
+              "printedName": "DomainModelTests.FamilyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests(im)initWithInvocation:",
+          "mangledName": "$s16DomainModelTests06FamilyC0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FamilyTests",
+              "printedName": "DomainModelTests.FamilyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests(im)initWithSelector:",
+          "mangledName": "$s16DomainModelTests06FamilyC0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FamilyTests",
+              "printedName": "DomainModelTests.FamilyTests",
+              "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests(im)init",
+          "mangledName": "$s16DomainModelTests06FamilyC0CACycfc",
+          "moduleName": "DomainModelTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DomainModelTests@objc(cs)FamilyTests",
+      "mangledName": "$s16DomainModelTests06FamilyC0C",
+      "moduleName": "DomainModelTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "DomainModelTests"
+    }
+  ],
+  "json_format_version": 6
+}

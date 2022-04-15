@@ -1,0 +1,987 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "TypeDecl",
+      "name": "DomainModel",
+      "printedName": "DomainModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "text",
+          "printedName": "text",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11DomainModelAAV4textSSvp",
+          "mangledName": "$s11DomainModelAAV4textSSvp",
+          "moduleName": "DomainModel",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModelAAV4textSSvg",
+              "mangledName": "$s11DomainModelAAV4textSSvg",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModelAAV4textSSvs",
+              "mangledName": "$s11DomainModelAAV4textSSvs",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModelAAV4textSSvM",
+              "mangledName": "$s11DomainModelAAV4textSSvM",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(text:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DomainModel",
+              "printedName": "DomainModel.DomainModel",
+              "usr": "s:11DomainModelAAV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModelAAV4textABSS_tcfc",
+          "mangledName": "$s11DomainModelAAV4textABSS_tcfc",
+          "moduleName": "DomainModel",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DomainModel",
+              "printedName": "DomainModel.DomainModel",
+              "usr": "s:11DomainModelAAV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModelAAVABycfc",
+          "mangledName": "$s11DomainModelAAVABycfc",
+          "moduleName": "DomainModel",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11DomainModelAAV",
+      "mangledName": "$s11DomainModelAAV",
+      "moduleName": "DomainModel",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Money",
+      "printedName": "Money",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "amount",
+          "printedName": "amount",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11DomainModel5MoneyV6amountSivp",
+          "mangledName": "$s11DomainModel5MoneyV6amountSivp",
+          "moduleName": "DomainModel",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV6amountSivg",
+              "mangledName": "$s11DomainModel5MoneyV6amountSivg",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV6amountSivs",
+              "mangledName": "$s11DomainModel5MoneyV6amountSivs",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV6amountSivM",
+              "mangledName": "$s11DomainModel5MoneyV6amountSivM",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currency",
+          "printedName": "currency",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11DomainModel5MoneyV8currencySSvp",
+          "mangledName": "$s11DomainModel5MoneyV8currencySSvp",
+          "moduleName": "DomainModel",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV8currencySSvg",
+              "mangledName": "$s11DomainModel5MoneyV8currencySSvg",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV8currencySSvs",
+              "mangledName": "$s11DomainModel5MoneyV8currencySSvs",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel5MoneyV8currencySSvM",
+              "mangledName": "$s11DomainModel5MoneyV8currencySSvM",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(amount:currency:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModel5MoneyV6amount8currencyACSi_SStcfc",
+          "mangledName": "$s11DomainModel5MoneyV6amount8currencyACSi_SStcfc",
+          "moduleName": "DomainModel",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "convert",
+          "printedName": "convert(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel5MoneyV7convertyACSSF",
+          "mangledName": "$s11DomainModel5MoneyV7convertyACSSF",
+          "moduleName": "DomainModel",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "add",
+          "printedName": "add(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel5MoneyV3addyA2CF",
+          "mangledName": "$s11DomainModel5MoneyV3addyA2CF",
+          "moduleName": "DomainModel",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "subtract",
+          "printedName": "subtract(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Money",
+              "printedName": "DomainModel.Money",
+              "usr": "s:11DomainModel5MoneyV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel5MoneyV8subtractyA2CF",
+          "mangledName": "$s11DomainModel5MoneyV8subtractyA2CF",
+          "moduleName": "DomainModel",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11DomainModel5MoneyV",
+      "mangledName": "$s11DomainModel5MoneyV",
+      "moduleName": "DomainModel",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Job",
+      "printedName": "Job",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11DomainModel3JobC5titleSSvp",
+          "mangledName": "$s11DomainModel3JobC5titleSSvp",
+          "moduleName": "DomainModel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC5titleSSvg",
+              "mangledName": "$s11DomainModel3JobC5titleSSvg",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC5titleSSvs",
+              "mangledName": "$s11DomainModel3JobC5titleSSvs",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC5titleSSvM",
+              "mangledName": "$s11DomainModel3JobC5titleSSvM",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "type",
+          "printedName": "type",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JobType",
+              "printedName": "DomainModel.Job.JobType",
+              "usr": "s:11DomainModel3JobC0C4TypeO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11DomainModel3JobC4typeAC0C4TypeOvp",
+          "mangledName": "$s11DomainModel3JobC4typeAC0C4TypeOvp",
+          "moduleName": "DomainModel",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "JobType",
+                  "printedName": "DomainModel.Job.JobType",
+                  "usr": "s:11DomainModel3JobC0C4TypeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC4typeAC0C4TypeOvg",
+              "mangledName": "$s11DomainModel3JobC4typeAC0C4TypeOvg",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "JobType",
+                  "printedName": "DomainModel.Job.JobType",
+                  "usr": "s:11DomainModel3JobC0C4TypeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC4typeAC0C4TypeOvs",
+              "mangledName": "$s11DomainModel3JobC4typeAC0C4TypeOvs",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11DomainModel3JobC4typeAC0C4TypeOvM",
+              "mangledName": "$s11DomainModel3JobC4typeAC0C4TypeOvM",
+              "moduleName": "DomainModel",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:type:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Job",
+              "printedName": "DomainModel.Job",
+              "usr": "s:11DomainModel3JobC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "JobType",
+              "printedName": "DomainModel.Job.JobType",
+              "usr": "s:11DomainModel3JobC0C4TypeO"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModel3JobC5title4typeACSS_AC0C4TypeOtcfc",
+          "mangledName": "$s11DomainModel3JobC5title4typeACSS_AC0C4TypeOtcfc",
+          "moduleName": "DomainModel",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "JobType",
+          "printedName": "JobType",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "Hourly",
+              "printedName": "Hourly",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(DomainModel.Job.JobType.Type) -> (Swift.Double) -> DomainModel.Job.JobType",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.Double) -> DomainModel.Job.JobType",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "JobType",
+                          "printedName": "DomainModel.Job.JobType",
+                          "usr": "s:11DomainModel3JobC0C4TypeO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Double",
+                          "printedName": "Swift.Double",
+                          "usr": "s:Sd"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "DomainModel.Job.JobType.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "JobType",
+                          "printedName": "DomainModel.Job.JobType",
+                          "usr": "s:11DomainModel3JobC0C4TypeO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:11DomainModel3JobC0C4TypeO6HourlyyAESdcAEmF",
+              "mangledName": "$s11DomainModel3JobC0C4TypeO6HourlyyAESdcAEmF",
+              "moduleName": "DomainModel",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "Salary",
+              "printedName": "Salary",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(DomainModel.Job.JobType.Type) -> (Swift.UInt) -> DomainModel.Job.JobType",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.UInt) -> DomainModel.Job.JobType",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "JobType",
+                          "printedName": "DomainModel.Job.JobType",
+                          "usr": "s:11DomainModel3JobC0C4TypeO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UInt",
+                          "printedName": "Swift.UInt",
+                          "usr": "s:Su"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "DomainModel.Job.JobType.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "JobType",
+                          "printedName": "DomainModel.Job.JobType",
+                          "usr": "s:11DomainModel3JobC0C4TypeO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:11DomainModel3JobC0C4TypeO6SalaryyAESucAEmF",
+              "mangledName": "$s11DomainModel3JobC0C4TypeO6SalaryyAESucAEmF",
+              "moduleName": "DomainModel",
+              "fixedbinaryorder": 1
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:11DomainModel3JobC0C4TypeO",
+          "mangledName": "$s11DomainModel3JobC0C4TypeO",
+          "moduleName": "DomainModel",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "Function",
+          "name": "calculateIncome",
+          "printedName": "calculateIncome(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel3JobC15calculateIncomeyS2iF",
+          "mangledName": "$s11DomainModel3JobC15calculateIncomeyS2iF",
+          "moduleName": "DomainModel",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "raise",
+          "printedName": "raise(byAmount:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel3JobC5raise8byAmountySd_tF",
+          "mangledName": "$s11DomainModel3JobC5raise8byAmountySd_tF",
+          "moduleName": "DomainModel",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "raise",
+          "printedName": "raise(byPercent:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11DomainModel3JobC5raise9byPercentySd_tF",
+          "mangledName": "$s11DomainModel3JobC5raise9byPercentySd_tF",
+          "moduleName": "DomainModel",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:11DomainModel3JobC",
+      "mangledName": "$s11DomainModel3JobC",
+      "moduleName": "DomainModel",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Person",
+      "printedName": "Person",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Person",
+              "printedName": "DomainModel.Person",
+              "usr": "s:11DomainModel6PersonC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModel6PersonCACycfc",
+          "mangledName": "$s11DomainModel6PersonCACycfc",
+          "moduleName": "DomainModel",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:11DomainModel6PersonC",
+      "mangledName": "$s11DomainModel6PersonC",
+      "moduleName": "DomainModel",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Family",
+      "printedName": "Family",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Family",
+              "printedName": "DomainModel.Family",
+              "usr": "s:11DomainModel6FamilyC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11DomainModel6FamilyCACycfc",
+          "mangledName": "$s11DomainModel6FamilyCACycfc",
+          "moduleName": "DomainModel",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:11DomainModel6FamilyC",
+      "mangledName": "$s11DomainModel6FamilyC",
+      "moduleName": "DomainModel",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "hasMissingDesignatedInitializers": true
+    }
+  ],
+  "json_format_version": 6
+}

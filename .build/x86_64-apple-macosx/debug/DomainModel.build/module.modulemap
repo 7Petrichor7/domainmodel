@@ -1,0 +1,4 @@
+module DomainModel {
+    header "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/DomainModel-Swift.h"
+    requires objc
+}

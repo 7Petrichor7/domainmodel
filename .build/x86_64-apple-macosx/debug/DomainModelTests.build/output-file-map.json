@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/master.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/DomainModelTests.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/DomainModelTests.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/DomainModelTests.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/DomainModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/DomainModelTests.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/JobTests.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/JobTests.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/JobTests.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/JobTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/JobTests.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/MoneyTests.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/MoneyTests.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/MoneyTests.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/MoneyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/MoneyTests.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/PersonTests.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/PersonTests.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/PersonTests.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/PersonTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/PersonTests.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Tests/DomainModelTests/XCTestManifests.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/XCTestManifests.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModelTests.build/XCTestManifests.swiftdeps"
+  }
+}

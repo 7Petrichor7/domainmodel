@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/master.swiftdeps"
+  },
+  "/Users/wuming/Desktop/domainmodel/Sources/DomainModel/DomainModel.swift": {
+    "dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/DomainModel.d",
+    "object": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/DomainModel.swift.o",
+    "swiftmodule": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/DomainModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuming/Desktop/domainmodel/.build/x86_64-apple-macosx/debug/DomainModel.build/DomainModel.swiftdeps"
+  }
+}

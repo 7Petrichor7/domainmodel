@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1649981616, 665782928]
+build_end_time: [1649981616, 995459079]
+inputs:
+  "/Users/wuming/Desktop/domainmodel/Sources/DomainModel/DomainModel.swift": [1649981554, 744965553]
